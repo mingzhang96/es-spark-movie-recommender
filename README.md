@@ -1,4 +1,4 @@
-* [English](#a-recommender-based-on-elasticsearch-spark)
+* [English](#a-recommender-based-on-elasticsearch-&-spark)
 * [中文](#基于elasticsearch和spark的推荐系统)
 
 ## A Recommender based on Elasticsearch & Spark
