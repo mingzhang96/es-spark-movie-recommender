@@ -5,16 +5,16 @@
 
 > According to [@IBM 's work](https://github.com/IBM/elasticsearch-spark-recommender), do some processing and localizing.
 
-#### change
+### Change
 
-divide original code into two part:
+Divide original code into two part:
 * pre-recommend.py ==> getting data, training model and save into es
 * recommend.py ==> how to search using plugin and show result
 
 Different from that @IBM 's work is based on jupyter book, now you can directly open this project on pycharm and run it.
 However it is a shame that pycharm can not show poster on console.
 
-#### start
+### Start
 
 1. Follow [@IBM 's work](https://github.com/IBM/elasticsearch-spark-recommender) and build environment.
     * ES 5.3.0
@@ -28,9 +28,9 @@ However it is a shame that pycharm can not show poster on console.
     SPARK_HOME /usr/local/spark
     ```
 
-3. move `elasticsearch-spark-20_2.11-5.3.0.jar` into $SPARK_HOME/jars
+3. Move `elasticsearch-spark-20_2.11-5.3.0.jar` into $SPARK_HOME/jars
 
-4. change `API_KEY` in pre-recommend.py & recommend.py
+4. Change `API_KEY` in `pre-recommend.py` & `recommend.py`
 
 5. Run!
 
@@ -45,7 +45,7 @@ However it is a shame that pycharm can not show poster on console.
 * pre-recommend.py 实现了数据提取、插入es、训练模型并插入es
 * recommend.py 实现了具体查询过程
 
-因为原本的代码是在jupyter book上的，现在提取之后可以直接在pycharm运行，只是不能显示最后的海报图片内容。
+因为原本的代码是在`jupyter book`上的，现在提取之后可以直接在pycharm运行，只是不能显示最后的海报图片内容。
 
 #### 使用
 
@@ -61,9 +61,9 @@ However it is a shame that pycharm can not show poster on console.
     SPARK_HOME /usr/local/spark
     ```
 
-3. 将之前下好的`elasticsearch-spark-20_2.11-5.3.0.jar`放到`spark`的安装目录下的jars目录下。
+3. 将之前下好的`elasticsearch-spark-20_2.11-5.3.0.jar`放到`spark`的安装目录下的`jars`目录下。
 
-4. 修改pre-recommend.py和recommend.py中的API_KEY为你自己的key。
+4. 修改`pre-recommend.py`和`recommend.py`中的`API_KEY`为你自己的`key`。
 
 5. 开始运行！
 
