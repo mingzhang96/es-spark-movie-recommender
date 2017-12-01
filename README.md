@@ -39,7 +39,7 @@ However it is a shame that pycharm can not show poster on console.
 
 > 根据[IBM/elasticsearch-spark-recommender](https://github.com/IBM/elasticsearch-spark-recommender)做了代码提取和本地实现。
 
-#### 改变
+### 改变
 
 将原本的代码拆分成了两部分：
 * pre-recommend.py 实现了数据提取、插入es、训练模型并插入es
@@ -47,7 +47,7 @@ However it is a shame that pycharm can not show poster on console.
 
 因为原本的代码是在`jupyter book`上的，现在提取之后可以直接在pycharm运行，只是不能显示最后的海报图片内容。
 
-#### 使用
+### 使用
 
 1. 先按照[IBM/elasticsearch-spark-recommender](https://github.com/IBM/elasticsearch-spark-recommender)搭建
     * ES 5.3.0
